@@ -1,15 +1,49 @@
 
-<!doctype html><html lang="no"><head><meta charset="utf-8">
-<title>Bryggekart Editor</title>
-<link rel="stylesheet" href="style.css"></head><body>
-<h2>Bryggekart Editor</h2>
-Velg plass:
-<select id="boat"></select>
-<button id="export">Lagre JSON</button>
-<div id="wrap">
-<img id="map" src="images/bryggekart.png">
-</div>
-<p><b>Koordinater:</b></p>
-<textarea id="json" rows="14" style="width:100%"></textarea>
-<script src="editor.js"></script>
+<!doctype html><html lang="no"><head>
+<meta charset="utf-8">
+<title>Åstadheia Bryggekart</title>
+<style>
+body{font-family:Arial;background:#eef;margin:15px}
+#wrap{position:relative;display:inline-block}
+#map{display:block;max-width:100%}
+.pt{position:absolute;width:22px;height:22px;transform:translate(-50%,-50%);
+background:rgba(255,0,0,.15);border-radius:50%;cursor:pointer}
+#popup{position:fixed;right:20px;top:20px;background:white;border:1px solid #777;
+padding:10px;display:none;width:240px}
+#search{width:120px}
+</style></head><body>
+<h2>Åstadheia Bryggekart</h2>
+Søk: <input id="search" placeholder="A-17">
+<button onclick="findBoat()">Finn</button>
+<div id="wrap"><img id="map" src="images/bryggekart.png"></div>
+<div id="popup"></div>
+<script>
+let boats={};
+fetch('boatdata.json').then(r=>r.json()).then(d=>{
+ boats=d;
+ const wrap=document.getElementById('wrap');
+ for(const id in d){
+   const p=document.createElement('div');
+   p.className='pt';
+   p.style.left=d[id].x+'px';
+   p.style.top=d[id].y+'px';
+   p.title=id;
+   p.onclick=()=>show(id);
+   wrap.appendChild(p);
+ }
+});
+function show(id){
+ let b=boats[id];
+ let p=document.getElementById('popup');
+ p.style.display='block';
+ p.innerHTML='<h3>'+id+'</h3><p><b>'+b.status+
+ '</b></p><p>Eier: '+(b.eier||'-')+
+ '<br>Bruker: '+(b.bruker||'-')+
+ '<br>Telefon: '+(b.telefon||'-')+'</p>';
+}
+function findBoat(){
+ let id=document.getElementById('search').value.toUpperCase();
+ if(boats[id]) show(id); else alert('Ikke funnet');
+}
+</script>
 </body></html>

@@ -1,8 +1,490 @@
 {
   "A-01": {
-    "owner": "Test A-01"
+    "x": 1054,
+    "y": 599,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-02": {
+    "x": 1036,
+    "y": 496,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-03": {
+    "x": 1007,
+    "y": 601,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-04": {
+    "x": 992,
+    "y": 496,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-05": {
+    "x": 959,
+    "y": 603,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-06": {
+    "x": 949,
+    "y": 498,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-07": {
+    "x": 912,
+    "y": 600,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-08": {
+    "x": 900,
+    "y": 495,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-09": {
+    "x": 862,
+    "y": 603,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-10": {
+    "x": 855,
+    "y": 493,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-11": {
+    "x": 816,
+    "y": 600,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-12": {
+    "x": 805,
+    "y": 495,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-13": {
+    "x": 766,
+    "y": 603,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-14": {
+    "x": 761,
+    "y": 495,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-15": {
+    "x": 719,
+    "y": 599,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-16": {
+    "x": 714,
+    "y": 494,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-17": {
+    "x": 673,
+    "y": 600,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-18": {
+    "x": 670,
+    "y": 491,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-19": {
+    "x": 630,
+    "y": 598,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-20": {
+    "x": 625,
+    "y": 492,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-21": {
+    "x": 580,
+    "y": 600,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-22": {
+    "x": 581,
+    "y": 495,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-23": {
+    "x": 532,
+    "y": 598,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-24": {
+    "x": 534,
+    "y": 496,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-25": {
+    "x": 488,
+    "y": 601,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-26": {
+    "x": 488,
+    "y": 495,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-27": {
+    "x": 436,
+    "y": 600,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-28": {
+    "x": 440,
+    "y": 492,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-29": {
+    "x": 392,
+    "y": 600,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-30": {
+    "x": 401,
+    "y": 496,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-31": {
+    "x": 339,
+    "y": 600,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-32": {
+    "x": 350,
+    "y": 494,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-33": {
+    "x": 298,
+    "y": 601,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "A-34": {
+    "x": 310,
+    "y": 495,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
   },
   "B-01": {
-    "owner": "Test B-01"
+    "x": 840,
+    "y": 268,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-02": {
+    "x": 832,
+    "y": 177,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-03": {
+    "x": 797,
+    "y": 265,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-04": {
+    "x": 790,
+    "y": 176,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-05": {
+    "x": 756,
+    "y": 263,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-06": {
+    "x": 749,
+    "y": 180,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-07": {
+    "x": 714,
+    "y": 266,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-08": {
+    "x": 707,
+    "y": 179,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-09": {
+    "x": 670,
+    "y": 264,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-10": {
+    "x": 667,
+    "y": 176,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-11": {
+    "x": 626,
+    "y": 266,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-12": {
+    "x": 625,
+    "y": 178,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-13": {
+    "x": 585,
+    "y": 269,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-14": {
+    "x": 585,
+    "y": 178,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-15": {
+    "x": 536,
+    "y": 273,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-16": {
+    "x": 542,
+    "y": 182,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-17": {
+    "x": 501,
+    "y": 268,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-18": {
+    "x": 503,
+    "y": 181,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-19": {
+    "x": 455,
+    "y": 265,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-20": {
+    "x": 455,
+    "y": 177,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-21": {
+    "x": 412,
+    "y": 268,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-22": {
+    "x": 413,
+    "y": 179,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-23": {
+    "x": 367,
+    "y": 269,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-24": {
+    "x": 374,
+    "y": 182,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-25": {
+    "x": 327,
+    "y": 266,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-26": {
+    "x": 336,
+    "y": 178,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
+  },
+  "B-27": {
+    "x": 279,
+    "y": 265,
+    "status": "Privat båtplass",
+    "eier": "",
+    "bruker": "",
+    "telefon": ""
   }
 }

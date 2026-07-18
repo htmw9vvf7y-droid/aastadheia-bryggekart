@@ -1,1 +1,1 @@
-Klikk på kartet for å plassere valgt båtplass. Trykk 'Vis JSON' for koordinater.
+Klikkbar prototype som bruker koordinatene fra boatdata.json
