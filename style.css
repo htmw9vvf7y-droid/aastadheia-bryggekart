@@ -1,1 +1,8 @@
-body{font-family:Arial,sans-serif;margin:0}header{background:#0d5c8f;color:#fff;padding:1rem}#map-container{position:relative;max-width:1400px;margin:auto}#drone{width:100%}#overlay{position:absolute;inset:0}.hidden{display:none}#popup{position:fixed;right:20px;top:20px;background:#fff;padding:1rem;border:1px solid #ccc}
+
+body{font-family:Arial;margin:20px;background:#f2f2f2}
+#wrap{position:relative;display:inline-block}
+#kart{max-width:100%;display:block}
+.hotspot{position:absolute;width:32px;height:32px;transform:translate(-50%,-50%);
+cursor:pointer;background:rgba(0,128,255,.15);border:2px solid rgba(0,128,255,.5);border-radius:4px}
+#popup{position:fixed;right:20px;top:20px;background:#fff;border:1px solid #888;padding:15px}
+.hidden{display:none}

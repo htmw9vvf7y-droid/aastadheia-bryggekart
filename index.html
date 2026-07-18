@@ -1,24 +1,19 @@
-<!DOCTYPE html>
-<html lang="no">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!DOCTYPE html><html lang="no"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Bryggekart – Åstadheia Vel</title>
 <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header><h1>Bryggekart – Åstadheia Vel</h1><input id="search" placeholder="Søk båtplass..."></header>
-<main id="map-container">
-<img id="drone" src="images/drone.jpg" alt="Dronebilde">
-<svg id="overlay"></svg>
-</main>
+</head><body>
+<h2>Bryggekart – Åstadheia Vel</h2>
+<div id="wrap">
+<img src="images/bryggekart.png" id="kart">
+<div class="hotspot" style="left:48%;top:76%;" data-id="A-01"></div>
+<div class="hotspot" style="left:47%;top:11%;" data-id="B-01"></div>
+</div>
 <div id="popup" class="hidden">
-<h2 id="popup-title"></h2>
-<p id="popup-name"></p>
-<p id="popup-phone"></p>
-<p id="popup-email"></p>
-<button onclick="closePopup()">Lukk</button>
+<h3 id="title"></h3>
+<p id="owner"></p>
+<button onclick="hidePopup()">Lukk</button>
 </div>
 <script src="script.js"></script>
-</body>
-</html>
+</body></html>
