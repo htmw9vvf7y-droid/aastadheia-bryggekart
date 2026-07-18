@@ -1,1 +1,1 @@
-Erstatt filene i GitHub-prosjektet. Dette er v1 med A-01 og B-01.
+Klikk på kartet for å plassere valgt båtplass. Trykk 'Vis JSON' for koordinater.

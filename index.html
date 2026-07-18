@@ -1,19 +1,18 @@
-<!doctype html><html><head><meta charset="utf-8">
-<style>
-body{font-family:Arial}#c{position:relative;display:inline-block}
-#c img{display:block;max-width:100%}
-.hs{position:absolute;width:50px;height:50px;background:red;color:#fff;
-border:3px solid yellow;border-radius:50%;display:flex;align-items:center;justify-content:center;
-font-weight:bold;cursor:pointer;opacity:.85}
-#p{position:fixed;top:20px;right:20px;background:#fff;padding:10px;border:1px solid #333;display:none}
-</style></head><body>
-<p>Store røde testfelter.</p>
-<div id="c">
-<img src="images/bryggekart.png">
-<div class="hs" style="left:300px;top:470px" onclick="show('A-01')">A</div>
-<div class="hs" style="left:250px;top:210px" onclick="show('B-01')">B</div>
+<!doctype html>
+<html lang="no"><head><meta charset="utf-8">
+<title>Bryggekart Editor v1</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<h2>Bryggekart Editor v1</h2>
+<div class="toolbar">
+Velg plass:
+<select id="boat"></select>
+<button id="export">Vis JSON</button>
 </div>
-<div id="p"></div>
-<script>
-function show(id){let p=document.getElementById('p');p.style.display='block';p.innerHTML='<h3>'+id+'</h3><p>Test OK</p>';}
-</script></body></html>
+<div id="mapwrap">
+<img id="map" src="images/bryggekart.png">
+<div id="marker"></div>
+</div>
+<textarea id="json" rows="12"></textarea>
+<script src="editor.js"></script>
+</body></html>
