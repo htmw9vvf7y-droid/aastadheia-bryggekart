@@ -1,18 +1,15 @@
-<!doctype html>
-<html lang="no"><head><meta charset="utf-8">
-<title>Bryggekart Editor v1</title>
-<link rel="stylesheet" href="style.css">
-</head><body>
-<h2>Bryggekart Editor v1</h2>
-<div class="toolbar">
+
+<!doctype html><html lang="no"><head><meta charset="utf-8">
+<title>Bryggekart Editor</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<h2>Bryggekart Editor</h2>
 Velg plass:
 <select id="boat"></select>
-<button id="export">Vis JSON</button>
-</div>
-<div id="mapwrap">
+<button id="export">Lagre JSON</button>
+<div id="wrap">
 <img id="map" src="images/bryggekart.png">
-<div id="marker"></div>
 </div>
-<textarea id="json" rows="12"></textarea>
+<p><b>Koordinater:</b></p>
+<textarea id="json" rows="14" style="width:100%"></textarea>
 <script src="editor.js"></script>
 </body></html>
