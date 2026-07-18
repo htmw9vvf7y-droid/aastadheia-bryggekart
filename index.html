@@ -1,19 +1,19 @@
-
-<!DOCTYPE html><html lang="no"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Bryggekart – Åstadheia Vel</title>
-<link rel="stylesheet" href="style.css">
-</head><body>
-<h2>Bryggekart – Åstadheia Vel</h2>
-<div id="wrap">
-<img src="images/bryggekart.png" id="kart">
-<div class="hotspot" style="left:48%;top:76%;" data-id="A-01"></div>
-<div class="hotspot" style="left:47%;top:11%;" data-id="B-01"></div>
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+body{font-family:Arial}#c{position:relative;display:inline-block}
+#c img{display:block;max-width:100%}
+.hs{position:absolute;width:50px;height:50px;background:red;color:#fff;
+border:3px solid yellow;border-radius:50%;display:flex;align-items:center;justify-content:center;
+font-weight:bold;cursor:pointer;opacity:.85}
+#p{position:fixed;top:20px;right:20px;background:#fff;padding:10px;border:1px solid #333;display:none}
+</style></head><body>
+<p>Store røde testfelter.</p>
+<div id="c">
+<img src="images/bryggekart.png">
+<div class="hs" style="left:300px;top:470px" onclick="show('A-01')">A</div>
+<div class="hs" style="left:250px;top:210px" onclick="show('B-01')">B</div>
 </div>
-<div id="popup" class="hidden">
-<h3 id="title"></h3>
-<p id="owner"></p>
-<button onclick="hidePopup()">Lukk</button>
-</div>
-<script src="script.js"></script>
-</body></html>
+<div id="p"></div>
+<script>
+function show(id){let p=document.getElementById('p');p.style.display='block';p.innerHTML='<h3>'+id+'</h3><p>Test OK</p>';}
+</script></body></html>
