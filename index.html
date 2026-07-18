@@ -1,49 +1,46 @@
-
-<!doctype html><html lang="no"><head>
-<meta charset="utf-8">
+<!doctype html><html lang="no"><head><meta charset="utf-8">
 <title>Åstadheia Bryggekart</title>
 <style>
-body{font-family:Arial;background:#eef;margin:15px}
+html,body{margin:0;padding:0;background:#fff;font-family:Arial}
+#toolbar{position:fixed;top:10px;right:10px;z-index:1000;background:rgba(255,255,255,.9);padding:8px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.25)}
 #wrap{position:relative;display:inline-block}
-#map{display:block;max-width:100%}
-.pt{position:absolute;width:22px;height:22px;transform:translate(-50%,-50%);
-background:rgba(255,0,0,.15);border-radius:50%;cursor:pointer}
-#popup{position:fixed;right:20px;top:20px;background:white;border:1px solid #777;
-padding:10px;display:none;width:240px}
-#search{width:120px}
+#map{display:block;max-width:100vw;height:auto}
+.pt{position:absolute;width:26px;height:26px;transform:translate(-50%,-50%);cursor:pointer;background:rgba(0,0,0,0)}
+#popup{display:none;position:fixed;right:10px;top:60px;width:260px;background:#fff;border-radius:8px;padding:12px;box-shadow:0 3px 12px rgba(0,0,0,.35)}
+#popup h3{margin:0 0 8px}
 </style></head><body>
-<h2>Åstadheia Bryggekart</h2>
-Søk: <input id="search" placeholder="A-17">
-<button onclick="findBoat()">Finn</button>
+<div id="toolbar">
+<input id="search" placeholder="A-17"><button onclick="findBoat()">Finn</button>
+</div>
 <div id="wrap"><img id="map" src="images/bryggekart.png"></div>
 <div id="popup"></div>
 <script>
 let boats={};
-fetch('boatdata.json').then(r=>r.json()).then(d=>{
+fetch("boatdata.json").then(r=>r.json()).then(d=>{
  boats=d;
- const wrap=document.getElementById('wrap');
+ const w=document.getElementById("wrap");
  for(const id in d){
-   const p=document.createElement('div');
-   p.className='pt';
-   p.style.left=d[id].x+'px';
-   p.style.top=d[id].y+'px';
-   p.title=id;
-   p.onclick=()=>show(id);
-   wrap.appendChild(p);
+  const e=document.createElement("div");
+  e.className="pt";
+  e.style.left=d[id].x+"px";
+  e.style.top=d[id].y+"px";
+  e.title=id;
+  e.onclick=()=>showBoat(id);
+  w.appendChild(e);
  }
 });
-function show(id){
- let b=boats[id];
- let p=document.getElementById('popup');
- p.style.display='block';
- p.innerHTML='<h3>'+id+'</h3><p><b>'+b.status+
- '</b></p><p>Eier: '+(b.eier||'-')+
- '<br>Bruker: '+(b.bruker||'-')+
- '<br>Telefon: '+(b.telefon||'-')+'</p>';
+function showBoat(id){
+ const b=boats[id];
+ const p=document.getElementById("popup");
+ p.style.display="block";
+ p.innerHTML=`<h3>${id}</h3>
+ <b>${b.status}</b><hr>
+ Eier: ${b.eier||"-"}<br>
+ Bruker: ${b.bruker||"-"}<br>
+ Telefon: ${b.telefon||"-"}`;
 }
 function findBoat(){
- let id=document.getElementById('search').value.toUpperCase();
- if(boats[id]) show(id); else alert('Ikke funnet');
+ const id=document.getElementById("search").value.toUpperCase();
+ if(boats[id]) showBoat(id); else alert("Fant ikke "+id);
 }
-</script>
-</body></html>
+</script></body></html>
