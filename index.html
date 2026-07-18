@@ -1,46 +1,24 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bryggekart – Åstadheia Vel</title>
-
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bryggekart – Åstadheia Vel</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-    <h1>🚤 Bryggekart – Åstadheia Vel</h1>
-
-    <input type="text"
-           id="search"
-           placeholder="Søk etter båtplass eller navn...">
-</header>
-
-<div id="map-container">
-
-    <img src="images/drone.jpg"
-         id="drone"
-         alt="Bryggekart">
-
-    <!-- SVG legges over bildet -->
-    <svg id="overlay"></svg>
-
-</div>
-
+<header><h1>Bryggekart – Åstadheia Vel</h1><input id="search" placeholder="Søk båtplass..."></header>
+<main id="map-container">
+<img id="drone" src="images/drone.jpg" alt="Dronebilde">
+<svg id="overlay"></svg>
+</main>
 <div id="popup" class="hidden">
-    <h2 id="popup-title"></h2>
-
-    <p id="popup-name"></p>
-
-    <p id="popup-phone"></p>
-
-    <p id="popup-email"></p>
-
-    <button onclick="closePopup()">Lukk</button>
+<h2 id="popup-title"></h2>
+<p id="popup-name"></p>
+<p id="popup-phone"></p>
+<p id="popup-email"></p>
+<button onclick="closePopup()">Lukk</button>
 </div>
-
 <script src="script.js"></script>
-
 </body>
 </html>

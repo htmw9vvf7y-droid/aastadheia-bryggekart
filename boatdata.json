@@ -1,10 +1,1 @@
-[
-  {
-    "id":"A-01",
-    "name":"Ola Nordmann",
-    "phone":"90000000",
-    "email":"ola@test.no",
-    "x":18,
-    "y":72
-  }
-]
+[{"id":"A-01","name":"","phone":"","email":"","x":0,"y":0}]
